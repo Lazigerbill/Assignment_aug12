@@ -28,3 +28,16 @@ end
 puts "Hello"+33.to_s
 puts "Hello".to_i+33
 
+# Evidently, Ruby is much more than just a calculator, but try outputting the result of 45628 multiplied by 7839 in a sentence by using string interpolation.
+
+result=45628+7839
+puts "The result for 45628 multiplied by 7839 is #{result}"
+
+# What's the value of the expression (true && false) || (false && true) || !(false && false)? Try figuring it out on your own before typing it in.
+
+if
+(true && false) || (false && true) || !(false && false)
+puts "(true && false) || (false && true) || !(false && false)is TRUE" 
+else
+puts "(true && false) || (false && true) || !(false && false)is FALSE" 
+end
