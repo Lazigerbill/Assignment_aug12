@@ -22,3 +22,9 @@ rating=gets.chomp
  	puts"Service was excellent, you get $#{tips}"
 
 end
+
+# Try adding a string and an integer. What happens? Find a way to convert the integer so that it works and use puts to print the answer onscreen.
+
+puts "Hello"+33.to_s
+puts "Hello".to_i+33
+
