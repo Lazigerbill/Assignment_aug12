@@ -10,12 +10,12 @@ one_to_hundred.each do |number|
 		number%3==0
 		puts "Bit"
 		bit_counter +=1
-		elsif
-			number%5==0
-			puts "maker"
-			maker_counter +=1
-		else
-			puts number
+	elsif
+		number%5==0
+		puts "maker"
+		maker_counter +=1
+	else
+		puts number
 	end
 	
 end
